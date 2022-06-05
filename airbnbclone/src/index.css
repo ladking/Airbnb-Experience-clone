@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
+}
+.app{
+  display: grid;
+  justify-content: center;
+}
+
+nav{
+  height: 70px;
+  width: 100vw;
+  background: #FFFFFF;
+  box-shadow: 0px 2.98256px 7.4564px rgba(0, 0, 0, 0.1);
+  display: flex;
+  align-items: center;
+  padding-left:20px ;
+}
+.Hero{
+  box-sizing: border-box;
+  padding: 10px 50px;
+  display: flex;
+  flex-direction: column;
+   
+}
+.hero-img{
+  width:100%;
+  align-self: center;
+}
+.hero-head{
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 110%;
+}
+.text{
+  margin-top: 0;
+  
+  font-family: 'Poppins';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+}
+.cards-list {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 20px;
+  overflow-x: auto;
+padding: 10px 50px;
+}
+.card{
+  position: relative;
+  width: 175px;
+  font-size: 12px;
+  flex: 0 0 auto;         /* ADD */
+  display: flex;          /* ADD */
+  flex-direction: column;
+}
+.card-img{
+    width: 100%;
+    max-height: 235px;
+    border-radius: 9px;
+    margin-bottom: 9px;
+}
+.card--title {
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.card-price{
+  margin-top: auto;
+}
+.sold{
+  position: absolute;
+  left: 10px;
+  top: -10px;
+  padding: 5px;
+  background: #FFFFFF;
+  border-radius: 5px;
+}
+
+.bold{
+  font-weight: bold;
+}
